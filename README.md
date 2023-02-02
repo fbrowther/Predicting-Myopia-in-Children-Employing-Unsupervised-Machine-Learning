@@ -8,7 +8,7 @@ Data collected as part of the 'Orinda Longitudinal Study of Myopia' at US Nation
 The dataset contained information on -
 
             (a) Age, 
-            (b) measurements taken at opticians (SPHEQ, AL,	ACD,	LT, VCD, DIOPTERHR), 
+            (b) measurements taken at opticians (SPHEQ, AL,	ACD, LT, VCD, DIOPTERHR), 
             (c) time children spent on different activities (SPORTHR, READHR, COMPHR, STUDYHR, TVHR) and 
             (d) whether child's parents had myopia themselves (MOMMY, DADMY).	
 
