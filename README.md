@@ -44,7 +44,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 ![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
 
-The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained the 99% of the features for the model. However it did reduce the features from 14 to 12. This dimentionality was further reduced using T-SNE on the PCA_features. However, this did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
+The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained 99% explained variance. However it did reduce the features from 14 to 12. This dimentionality was further reduced using T-SNE on the PCA_features. However, this did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
 
 (2) Kmeans and Elbow Curve 
 
