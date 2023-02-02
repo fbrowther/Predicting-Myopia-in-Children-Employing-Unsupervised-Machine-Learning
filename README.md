@@ -47,6 +47,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained the 99% of the features for the model. However it did reduce the features from 14 to 12. This dimentionality was further reduced using T-SNE on the PCA_features. However, this did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
 
 (2) Kmeans and Elbow Curve 
+
 ![EC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/Elbow.png)
 
 Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However this also failed to identify (distinguishable) clusters within the dataset.
@@ -55,7 +56,9 @@ Kmeans Clustering was carried out on a number of possible clusters (ranging from
 Hyperparameter tuning was attempted using initialization and this analysis retured inertia values that can identify "zero" clusters.
 
 (4) Hierarchial Clustering 
+
 ![HC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/HClustering.png)
+
 Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable to predict presence or absense of myopia in children.
 
 
