@@ -45,16 +45,16 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 ![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
 
-The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.90 was specified which retained 90% explained variance. However it did reduce the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (employing the PCA_features). However, this step did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
+The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.90 was specified which retained 90% explained variance. However, it did reduced the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (employing the PCA_features). However, this step did not result in any distinguishable clusters (as shown in figure) that can used to predict if Myopia was present or not.
 
 #### (2) Kmeans and Elbow Curve 
 
 ![EC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/Elbow.png)
 
-Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However this also failed to identify (distinguishable) clusters within the dataset.
+Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However, this step also failed to identify (distinguishable) clusters within the dataset.
 
-#### (3) Hyperparameter tuning using Initialization (KMeans++ and Random)
-Hyperparameter tuning was attempted using initialization and this analysis retured the value of inertia that was only able to identify "single" cluster.
+#### (3) Hyperparameter tuning using Initialization
+Hyperparameter tuning was attempted using initialization employing 'KMeans++' and 'Random' and this analysis returned the value of inertia that was only able to display a "single" cluster.
 
 #### (4) Hierarchial Clustering 
 
