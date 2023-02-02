@@ -45,7 +45,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 ![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
 
-The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained 99% explained variance. However it did reduce the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (on the PCA_features). However, this step did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
+The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained 90% explained variance. However it did reduce the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (employing the PCA_features). However, this step did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
 
 (2) Kmeans and Elbow Curve 
 
@@ -60,26 +60,29 @@ Hyperparameter tuning was attempted using initialization and this analysis retur
 
 ![HC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/HClustering.png)
 
-Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable as from all the above approaches and that it can't predict presence or absense of myopia in children definitively
-
+Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable employing unsupervised ML models. However, the dataset readily separated into two major clusters (orange and green) most likely indicating myopic and non-myopic children respectivly. Thus indicating that Hierarchial Clustering model can be employed after further refinement to predict presence or absense of myopia in children.
 
 ## Discussion and Conclusions -
 
-      (1) Inspite of performing dimensionality reduction employing PCA and tSNE a specific pattern or clusters within the dataset failed to emerge. 
+           (1) Inspite of performing dimensionality reduction employing PCA and tSNE, no specific pattern or clusters within the dataset was obtained. 
 
-      (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this yielded a inertia value of 
-          6030.953812. Further training of the data specifically using n_clusters=3; didnot yield a successful dispersion of the dataset 
-          forming any specific clusters.
+           (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this yielded 
+               a inertia value of 6030. Further training of the data specifically using n_clusters=3; didnot yield a successful 
+               dispersion of the dataset forming any specific clusters.
 
-      (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. One such method is the initialization.
-          Using Scikit Learn's "k-means++" and "random" methods, the model was re-trained and the value of its inertia was compared. 
-          The lower most value of inertia obtained can then be used for hyperparameter tuning. However, in the above dataset, even this approach 
-          failed to obtain distinguishable clusters. 
+            (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. One such method is the 
+                initialization.Using Scikit Learn's "k-means++" and "random" methods, the model was re-trained and the value of its inertia 
+                was compared. The lower most value of inertia obtained can then be used for hyperparameter tuning. 
+                However, in the above dataset, even this approach failed to obtain distinguishable clusters. 
 
-      (4) This indistinguishability of the dataset was further confrimed by Hierarchial Clustering Model.
+            (4) The dataset was separated into two major clusters (orange and green) (most probably indicating myopic and non-myopic group 
+                respectivly) was confirmed by Hierarchial Clustering Model.
 
-      (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm has failed to identify any clusters that can be used 
-          to predict Myopia in Children aged between 5-9 years old.
+            (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm using KMeans (combined with PCA & tSNE) failed 
+                to identify any clusters that can be used to predict Myopia in Children aged between 5-9 years old. 
+                However, Hierarchial clustering with further refinement of hyperparameters could potentially yield a better performing 
+                predictive model.
+
 
 ## Limitations - 
 
