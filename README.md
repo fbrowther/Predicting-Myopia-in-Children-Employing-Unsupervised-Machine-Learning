@@ -51,7 +51,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 (4) Hierarchial Clustering 
 
-![HC]()
+![HC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/HClustering.png)
 ## Discussion and Conclusions -
 
 
