@@ -45,7 +45,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 ![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
 
-The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained 99% explained variance. However it did reduce the features from 14 to 12. This dimentionality was further reduced using t-SNE analysis (on the PCA_features). However, this step did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
+The dimentionality of the dataset was reduced using PCA and t-SNE methods. In order to instantiate the PCA model, n_components=0.99 was specified which retained 99% explained variance. However it did reduce the features from 14 to 10. This dimentionality was further reduced using t-SNE analysis (on the PCA_features). However, this step did not result in any distinguishable clusters that can be further refined to predict if Myopia was present or not.
 
 (2) Kmeans and Elbow Curve 
 
@@ -54,13 +54,13 @@ The dimentionality of the dataset was reduced using PCA and t-SNE methods. In or
 Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However this also failed to identify (distinguishable) clusters within the dataset.
 
 (3) Hyperparameter tuning using Initialization (KMeans++ and Random)
-Hyperparameter tuning was attempted using initialization and this analysis retured inertia values that can identify "zero" clusters.
+Hyperparameter tuning was attempted using initialization and this analysis retured the value of inertia that was only able to identify "zero" clusters.
 
 (4) Hierarchial Clustering 
 
 ![HC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/HClustering.png)
 
-Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable to predict presence or absense of myopia in children.
+Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable as from all the above approaches and that it can't predict presence or absense of myopia in children definitively
 
 
 ## Discussion and Conclusions -
@@ -68,8 +68,8 @@ Finally, the dataset was fed through the Hierarchial clustering model to confirm
       (1) Inspite of performing dimensionality reduction employing PCA and tSNE a specific pattern or clusters within the dataset failed to emerge. 
 
       (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this yielded a inertia value of 
-          6731.352023. Further training of the data specifically using n_clusters=3; didnot yield a successful dispersion of the dataset forming 
-          any specific clusters. 
+          6030.953812. Further training of the data specifically using n_clusters=3; didnot yield a successful dispersion of the dataset 
+          forming any specific clusters.
 
       (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. One such method is the initialization.
           Using Scikit Learn's "k-means++" and "random" methods, the model was re-trained and the value of its inertia was compared. 
@@ -83,7 +83,7 @@ Finally, the dataset was fed through the Hierarchial clustering model to confirm
 
 ## Limitations - 
 
-      (1) In the PCA analysis, 99% of the features were retained not allowing the PCA to identify the most contributing features for this dataset. 
+      (1) In the PCA analysis, 90% of the features were retained not allowing the PCA to identify the most contributing features for this dataset. 
       Therefore, the analyses can be repeated with reduced features and assess its performance.
       
       (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being used to build the model.
