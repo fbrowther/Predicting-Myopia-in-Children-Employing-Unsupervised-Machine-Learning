@@ -88,6 +88,6 @@ Finally, the dataset was fed through the Hierarchial clustering model to confirm
       (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being used to build the model.
           
 
-## Dataset: 
+## Data Source: 
 Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute
 
