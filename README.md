@@ -37,7 +37,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
   
       Scipy.cluster.hierarchy-
       
-            (a) dendrogram, linkage
+            (a) Dendrogram, Linkage
             
 ## Model Performance -
 
