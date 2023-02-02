@@ -96,13 +96,13 @@ Therefore, Hierarchial Clustering model can be employed after further refinement
 
 ## Limitations - 
 
-            (1) In the PCA analysis, 90% of the features were retained, not allowing the PCA to identify the most contributing 
-                features for this dataset. Therefore, the analyses can be repeated with reduced features and assess its performance.
+      (1) In the PCA analysis, 90% of the features were retained, not allowing the PCA to identify the most contributing 
+          features for this dataset. Therefore, the analyses can be repeated with reduced features and assess its performance.
       
-            (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being 
-                used to build the model.
+      (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being 
+          used to build the model.
           
 
 ## Data Source: 
-            Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute
+      Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute
 
