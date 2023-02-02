@@ -25,17 +25,17 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
       
       Scikit-Learn ML and Library-
       
-  (a) Preprocessing - StandardScaler, normalize
+            (a) Preprocessing - StandardScaler, normalize
   
-  (b) Decomposition - PCA, 
+            (b) Decomposition - PCA, 
   
-  (c) Manifold - TSNE
+            (c) Manifold - TSNE
   
-  (d) Cluster - KMeans, AgglomerativeClustering
+            (d) Cluster - KMeans, AgglomerativeClustering
   
       Scipy.cluster.hierarchy-
       
-  (a) dendrogram, linkage
+            (a) dendrogram, linkage
   
 
 
