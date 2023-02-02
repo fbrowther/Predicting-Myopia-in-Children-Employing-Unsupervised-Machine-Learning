@@ -60,9 +60,9 @@ Hyperparameter tuning was attempted using initialization employing 'KMeans++' an
 
 ![HC](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/HClustering.png)
 
-Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable employing unsupervised ML models. However, the dataset readily separated into two major clusters (orange and green) most likely indicating myopic and non-myopic children respectivly. The value counts for lables - non-myopic (0)  and myopic children (1) were 537 and 81 respectively.
+Finally, the dataset was fed through the Hierarchial clustering model to confirm that this dataset infact was clearly indistinguishable employing unsupervised ML models. However, the dataset readily separated into two major clusters (orange and green) most likely indicating myopic and non-myopic children respectivly. The value counts for lables - non-myopic (0)  and myopic children (1) were 537 and 81 respectively in the original dataset. This however need to be confirmed. 
+Therefore, Hierarchial Clustering model can be employed after further refinement to predict presence or absense of myopia in children. 
 
-This indicates that Hierarchial Clustering model can be employed after further refinement to predict presence or absense of myopia in children. 
 
 ## Discussion and Conclusions -
 
