@@ -41,16 +41,17 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 (1) Dimensionality Reduction
 
+![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
 
 (2) Kmeans and Elbow Curve 
-
+![EC]()
 
 (3) Hyperparameter tuning using Initialization (KMeans++ and Random)
 
 
 (4) Hierarchial Clustering 
 
-
+![HC]()
 ## Discussion and Conclusions -
 
 
