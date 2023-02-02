@@ -83,8 +83,8 @@ Finally, the dataset was fed through the Hierarchial clustering model to confirm
 
 ## Limitations - 
 
-      In the PCA analysis, 99% of the features were retained not allowing the PCA to identify the most contributing features for this dataset. 
-      Therefore, the analyses can be repeated allowing the flexibility of the model to reduce the features to the required number.
+      (1) In the PCA analysis, 99% of the features were retained not allowing the PCA to identify the most contributing features for this dataset. 
+      Therefore, the analyses can be repeated with reduced features and assess its performance.
       
       (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being used to build the model.
           
