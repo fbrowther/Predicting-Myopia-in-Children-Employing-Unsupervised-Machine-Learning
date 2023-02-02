@@ -67,8 +67,9 @@ Finally, the dataset was fed through the Hierarchial clustering model to confirm
 
       (1) Inspite of performing dimensionality reduction employing PCA and tSNE a specific pattern or clusters within the dataset failed to emerge. 
 
-      (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this again didnot yield a successful 
-          dispersion of the dataset forming any specific clusters. 
+      (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this yielded a inertia value of 
+          6731.352023. Further training of the data specifically using n_clusters=3; didnot yield a successful dispersion of the dataset forming 
+          any specific clusters. 
 
       (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. One such method is the initialization.
           Using Scikit Learn's "k-means++" and "random" methods, the model was re-trained and the value of its inertia was compared. 
