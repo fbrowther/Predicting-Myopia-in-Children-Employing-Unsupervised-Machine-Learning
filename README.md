@@ -54,7 +54,7 @@ The dimentionality of the dataset was reduced using PCA and t-SNE methods. In or
 Kmeans Clustering was carried out on a number of possible clusters (ranging from 1-10) to determine which n_clusters would allow for the inertia to flatten. The elbow curve showed that n_clusters = 3 would be a good number to retrain the data. However this also failed to identify (distinguishable) clusters within the dataset.
 
 (3) Hyperparameter tuning using Initialization (KMeans++ and Random)
-Hyperparameter tuning was attempted using initialization and this analysis retured the value of inertia that was only able to identify "zero" clusters.
+Hyperparameter tuning was attempted using initialization and this analysis retured the value of inertia that was only able to identify "single" cluster.
 
 (4) Hierarchial Clustering 
 
