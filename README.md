@@ -64,7 +64,7 @@ Finally, the dataset was fed through the Hierarchial clustering model to confirm
 
 ## Discussion and Conclusions -
 
-      (1) Inspite of performing dimensionality reduction employing PCA and tSNE a specific pattern or clusters within the dataset was not obtained. 
+      (1) Inspite of performing dimensionality reduction employing PCA and tSNE a specific pattern or clusters within the dataset failed to emerge. 
 
       (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this again didnot yield a successful 
           dispersion of the dataset forming any specific clusters. 
