@@ -72,34 +72,37 @@ Therefore, Hierarchial Clustering model can be employed after further refinement
 
 ## Discussion and Conclusions -
 
-           (1) Inspite of performing dimensionality reduction employing PCA and tSNE, no specific pattern or clusters within the dataset was obtained. 
+           (1) Inspite of performing dimensionality reduction employing PCA and tSNE, no specific pattern 
+               or clusters within the dataset was obtained. 
 
-           (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; this yielded 
-               a inertia value of 6030. Further training of the data specifically using n_clusters=3; didnot yield a successful 
-               dispersion of the dataset forming any specific clusters.
+           (2) Furthermore, with the help of the elbow curve the dataset was further analysed employing n_clusters=3; 
+               this yielded a inertia value of 6030. Further training of the data specifically using n_clusters=3; 
+               didnot yield a successful dispersion of the dataset forming any specific clusters.
 
-            (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. One such method is the 
-                initialization.Using Scikit Learn's "k-means++" and "random" methods, the model was re-trained and the value of its inertia 
-                was compared. The lower most value of inertia obtained can then be used for hyperparameter tuning. 
+            (3) For the unsupervised K-Means algorithm, inertia value can be used to find better hyperparameters. 
+                One such method is the initialization. Using Scikit Learn's "k-means++" and "random" methods, 
+                the model was re-trained and the value of its inertia was compared. The lower most value of inertia 
+                obtained can then be used for hyperparameter tuning. 
                 However, in the above dataset, even this approach failed to obtain distinguishable clusters. 
 
-            (4) The dataset was separated into two major clusters (orange and green) (most probably indicating myopic and non-myopic group 
-                respectivly) was confirmed by Hierarchial Clustering Model.
+            (4) The dataset was separated into two major clusters (orange and green) (most probably indicating 
+                myopic and non-myopic group respectivly) was confirmed by Hierarchial Clustering Model.
 
-            (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm using KMeans (combined with PCA & tSNE) failed 
-                to identify any clusters that can be used to predict Myopia in Children aged between 5-9 years old. 
-                However, Hierarchial clustering with further refinement of hyperparameters could potentially yield a better performing 
-                predictive model.
+            (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm using KMeans (combined with PCA & tSNE) 
+                failed to identify any clusters that can be used to predict Myopia in Children aged between 5-9 years old. 
+                However, Hierarchial clustering with further refinement of hyperparameters could potentially yield a 
+                better performing predictive model.
 
 
 ## Limitations - 
 
-      (1) In the PCA analysis, 90% of the features were retained not allowing the PCA to identify the most contributing features for this dataset. 
-      Therefore, the analyses can be repeated with reduced features and assess its performance.
+            (1) In the PCA analysis, 90% of the features were retained, not allowing the PCA to identify the most contributing 
+                features for this dataset. Therefore, the analyses can be repeated with reduced features and assess its performance.
       
-      (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being used to build the model.
+            (2) Feature extraction or feature engineering steps can be adopted to combine/improve the features that are being 
+                used to build the model.
           
 
 ## Data Source: 
-Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute
+            Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute
 
