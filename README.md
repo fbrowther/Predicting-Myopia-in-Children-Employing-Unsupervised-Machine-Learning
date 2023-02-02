@@ -36,6 +36,24 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
       Scipy.cluster.hierarchy-
       
             (a) dendrogram, linkage
+            
+## Model Performance -
+
+(1) Dimensionality Reduction
+
+
+(2) Kmeans and Elbow Curve 
+
+
+(3) Hyperparameter tuning using Initialization (KMeans++ and Random)
+
+
+(4) Hierarchial Clustering 
+
+
+## Discussion and Conclusions -
+
+
   
 
 
