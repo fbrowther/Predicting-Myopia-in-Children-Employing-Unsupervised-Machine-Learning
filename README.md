@@ -6,6 +6,7 @@
 Data collected as part of the 'Orinda Longitudinal Study of Myopia' at US National Eye Institute was obtained to determine whether Myopia can be predicted using unsupervised machine learning models. This data is from children aged between 5-9 years old. 
 
 The dataset contained information on -
+
             (a) Age, 
             (b) measurements taken at opticians (SPHEQ, AL,	ACD,	LT, VCD, DIOPTERHR), 
             (c) time children spent on different activities (SPORTHR, READHR, COMPHR, STUDYHR, TVHR) and 
