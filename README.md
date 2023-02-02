@@ -41,7 +41,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
             
 ## Model Performance -
 
-(1) Dimensionality Reduction
+(1) Dimensionality Reduction (t-SNE_features plot)
 
 ![DR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/tSNE.png)
 
