@@ -84,8 +84,8 @@ Therefore, Hierarchial Clustering presents itself as a promising model that can 
                 obtained can then be used for hyperparameter tuning. 
                 However, in the above dataset, even this approach failed to obtain distinguishable clusters. 
 
-            (4) The dataset was separated into two major clusters (orange and green) (most probably indicating 
-                myopic and non-myopic group respectivly) was confirmed by Hierarchial Clustering Model.
+            (4) The dataset separated into two major clusters (orange and green) was confirmed by Hierarchial Clustering Model
+                (most probably indicating myopic and non-myopic group respectivly).
 
             (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm using KMeans (combined with PCA & tSNE) 
                 failed to identify any clusters that can be used to predict Myopia in Children aged between 5-9 years old. 
