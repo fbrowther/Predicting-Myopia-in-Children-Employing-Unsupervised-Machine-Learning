@@ -3,7 +3,7 @@
 # Unsupervised-Machine-Learning to Predict-Myopia
 
 ## Brief Introduction - 
-Data collected as part of the 'Orinda Longitudinal Study of Myopia' at US National Eye Institute was obtained to determine whether Myopia can be predicted using unsupervised machine learning models. This data is from children aged between 5-9 years old. 
+Data collected as part of the 'Orinda Longitudinal Study of Myopia' at US National Eye Institute was obtained to determine whether Myopia can be predicted using unsupervised machine learning models. This data is from children aged 5-9 years old. 
 
 The dataset contained information on -
 
