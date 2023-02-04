@@ -13,7 +13,7 @@ The dataset contained information on -
             (d) whether child's parents had myopia themselves (MOMMY, DADMY).	
 
 ## Aims and Objective -
-To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (0) in the age group of 5-9 years old.
+To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (value=0) in the age group of 5-9 years old.
 
 ## ML Steps to be executed -
 
