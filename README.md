@@ -84,7 +84,7 @@ Therefore, Hierarchial Clustering presents itself as a promising model that can 
                 obtained can then be used for hyperparameter tuning. 
                 However, in the above dataset, even this approach failed to obtain distinguishable clusters. 
 
-            (4) The dataset separated into two major clusters (orange and green) was confirmed by Hierarchial Clustering Model
+            (4) The dataset separating into two major clusters (orange and green) was confirmed by Hierarchial Clustering Model
                 (most probably indicating myopic and non-myopic group respectivly).
 
             (5) Therefore, it can be concluded that unsupervised Machine Learning algorithm using KMeans (combined with PCA & tSNE) 
