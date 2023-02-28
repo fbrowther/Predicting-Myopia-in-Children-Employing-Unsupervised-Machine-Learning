@@ -1,6 +1,6 @@
 ![LR](https://github.com/fbrowther/Unsupervised-Machine-Learning---Predicting-Myopia/blob/main/Images/d076583b-ecf3-478c-b97e-adcd080985da.jpeg)
 
-# Predicting Myopia in Children employing Unsupervised Machine Learning 
+# Predicting Myopia in Children Employing Unsupervised Machine Learning 
 
 ## Brief Introduction - 
 Data collected as part of the 'Orinda Longitudinal Study of Myopia' at US National Eye Institute was obtained to determine whether Myopia can be predicted using unsupervised machine learning models. This data is from children aged 5-9 years old. 
